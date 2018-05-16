@@ -1,0 +1,36 @@
+/* add your CSS here */
+body{
+  padding:300px;
+}
+
+.box{
+  border:1px hidden;
+  height: 30px;
+  width: 200px;
+}
+
+.box1{
+  border:1px ridge;
+  height:450px;
+  width: 480px; 
+  margin-bottom: 20px;
+}
+
+.box2{
+  border: 1px ridge;
+  height:380px;
+  width: 480px;
+  }
+
+.bigger-box{
+  border: 1px ridge;
+  height: 930px;
+  width: 480px;
+  padding:10px;
+}
+
+p{
+  padding: 10px;
+}
+
+
