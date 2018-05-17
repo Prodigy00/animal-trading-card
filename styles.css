@@ -1,36 +1,38 @@
 /* add your CSS here */
-body{
-  padding:300px;
+html{
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-.box{
-  border:1px hidden;
-  height: 30px;
-  width: 200px;
+#card{
+ width: 300px;
+ padding: 10px;
+ border: 1px solid grey;
+ box-shadow: 5px 5px rgba(119, 101, 101, 0.3);
 }
 
-.box1{
-  border:1px ridge;
-  height:450px;
-  width: 480px; 
-  margin-bottom: 20px;
-}
-
-.box2{
-  border: 1px ridge;
-  height:380px;
-  width: 480px;
-  }
-
-.bigger-box{
-  border: 1px ridge;
-  height: 930px;
-  width: 480px;
-  padding:10px;
-}
-
-p{
+#card-desc{
+  margin: 0px;
   padding: 10px;
+  border: 1px solid grey;
 }
 
+.title{
+ font-weight: bold;
+}
 
+.squirrel-pic{
+  width:300px;
+}
+
+.list{
+  list-style: none;
+  padding: 0px;
+}
+
+.label{
+  font-weight: bold;
+}
+
+.facts{
+  font-style: italic;
+}
